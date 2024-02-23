@@ -1,5 +1,5 @@
 FROM alpine
 
-ENV ITEM value
+ENV ITEM=value
 
-ENTRYPOINT  echo ${ITEM;}
+ENTRYPOINT  echo $ITEM
